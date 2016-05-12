@@ -14,4 +14,8 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 echo "Installing vundle plugins"
 vim +PluginInstall +qall
 
+echo "Setting up YouCompleteMe"
+cd ~/.vim/bundle/YouCompleteMe
+./install.sh --clang-completer
+
 echo "Finished"
