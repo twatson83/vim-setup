@@ -1,7 +1,7 @@
 #! /bin/bash
 
 echo "Installing dependancies"
-sudo apt-get -y install vim build-essential cmake python-dev python3-dev
+sudo apt-get -y install vim build-essential cmake python-dev python3-dev g++
 
 echo "Setting up awesome vim bundle"
 cp .vim_runtime ~/.vim_runtime -r
